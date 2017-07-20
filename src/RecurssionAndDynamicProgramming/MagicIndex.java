@@ -18,7 +18,7 @@ public class MagicIndex {
      */
     public static int findIndex(int[] arr) {
         if(arr == null || arr.length == 0) return -1;
-        return findIndexHelper(arr, 0);
+        return findIndexHelperNoDups(arr, 0);
     }
 
     public static int findIndexHelper(int[] arr, int startIndex) {
@@ -36,6 +36,30 @@ public class MagicIndex {
         }
     }
 
+    public static int findIndexHelperNoDups(int[] arr, int startIndex) {
+        if(arr.length == 0) return -1;
+        if(arr.length == 1) {
+            if(arr[0] == startIndex) return startIndex;
+            return -1;
+        }
+        int midIndex = arr.length/2;
+        if(arr[midIndex] == midIndex+startIndex) {
+            return midIndex + startIndex;
+        } else if(arr[midIndex] < midIndex) {
+            int next = midIndex;
+            while(midIndex < arr.length && arr[next] == arr[midIndex]) {
+                next++;
+            }
+            return findIndexHelper(Arrays.copyOfRange(arr, next, arr.length), next);
+        } else {
+            int next = midIndex;
+            while(midIndex >= 0 && arr[next] == arr[midIndex]) {
+                next--;
+            }
+            return findIndexHelper(Arrays.copyOfRange(arr, 0, next), 0);
+        }
+    }
+
     @Test
     public void nullTest() {
         assertEquals(-1, findIndex(null));
@@ -48,12 +72,20 @@ public class MagicIndex {
     }
 
     @Test
-    public void trueTest() {
+    public void trueUniqueTest() {
         int[] trueArr1 = {-2, -1, 0, 3, 8};
         int[] trueArr2 = {-1, 1, 4, 5, 7, 12, 45};
         assertEquals(3, findIndex(trueArr1));
         assertEquals(1, findIndex(trueArr2));
     }
+
+    @Test
+    public void trueDupsTest() {
+        int[] trueArr1 = {-2,-2,-2,-2,-2,5};
+        assertEquals(5, findIndex(trueArr1));
+    }
+
+
 
     @Test
     public void falseTest() {

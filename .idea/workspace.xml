@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aaa9a098-2448-4a37-b843-1ba589432a33" name="Default" comment="" />
+    <list default="true" id="aaa9a098-2448-4a37-b843-1ba589432a33" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RecurssionAndDynamicProgramming/MagicIndex.java" afterPath="$PROJECT_DIR$/src/RecurssionAndDynamicProgramming/MagicIndex.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,16 +61,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MagicIndex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MagicIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RecurssionAndDynamicProgramming/MagicIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="84" column="42" lean-forward="false" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#2136#2137#0" expanded="true" />
+                <element signature="e#2185#2186#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PalindromePermutation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PalindromePermutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/RecurssionAndDynamicProgramming/RobotInAGrid.java" />
         <option value="$PROJECT_DIR$/src/RecurssionAndDynamicProgramming/TripleStep.java" />
         <option value="$PROJECT_DIR$/src/RecurssionAndDynamicProgramming/MagicIndex.java" />
+        <option value="$PROJECT_DIR$/src/ArraysAndStrings/PalindromePermutation.java" />
       </list>
     </option>
   </component>
@@ -173,10 +186,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RecurssionAndDynamicProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -189,6 +198,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ArraysAndStrings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,33 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MagicIndex">
-    <configuration default="false" name="IsUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ArraysAndStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="CrackingTheCodingInterview" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ArraysAndStrings" />
-      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.IsUnique" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PalindromePermutation">
     <configuration default="false" name="URLify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -330,6 +317,26 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PalindromePermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ArraysAndStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ArraysAndStrings.PalindromePermutation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CrackingTheCodingInterview" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -537,19 +544,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.IsUnique" />
-      <item index="1" class="java.lang.String" itemvalue="Application.URLify" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TripleStep" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MagicIndex.trueTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MagicIndex" />
+      <item index="0" class="java.lang.String" itemvalue="Application.URLify" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TripleStep" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MagicIndex.trueTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MagicIndex" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PalindromePermutation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MagicIndex" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MagicIndex.trueTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TripleStep" />
-        <item index="3" class="java.lang.String" itemvalue="Application.URLify" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.IsUnique" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PalindromePermutation" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MagicIndex" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MagicIndex.trueTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TripleStep" />
+        <item index="4" class="java.lang.String" itemvalue="Application.URLify" />
       </list>
     </recent_temporary>
   </component>
@@ -567,12 +574,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IsUnique - 2017.07.15 at 14h 51m 01s.xml">
-      <configuration name="IsUnique" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IsUnique - 2017.07.15 at 14h 54m 46s.xml">
-      <configuration name="IsUnique" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MagicIndex - 2017.07.16 at 14h 23m 15s.xml">
       <configuration name="MagicIndex" configurationId="JUnit" />
     </history-entry>
@@ -582,17 +583,23 @@
     <history-entry file="MagicIndex - 2017.07.16 at 14h 25m 56s.xml">
       <configuration name="MagicIndex" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MagicIndex_trueTest - 2017.07.16 at 11h 55m 13s.xml">
-      <configuration name="MagicIndex.trueTest" configurationId="JUnit" />
+    <history-entry file="MagicIndex - 2017.07.18 at 18h 59m 01s.xml">
+      <configuration name="MagicIndex" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MagicIndex_trueTest - 2017.07.16 at 14h 20m 32s.xml">
-      <configuration name="MagicIndex.trueTest" configurationId="JUnit" />
+    <history-entry file="MagicIndex - 2017.07.18 at 19h 01m 22s.xml">
+      <configuration name="MagicIndex" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MagicIndex_trueTest - 2017.07.16 at 14h 20m 47s.xml">
-      <configuration name="MagicIndex.trueTest" configurationId="JUnit" />
+    <history-entry file="MagicIndex - 2017.07.18 at 19h 01m 23s.xml">
+      <configuration name="MagicIndex" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MagicIndex_trueTest - 2017.07.16 at 14h 22m 10s.xml">
-      <configuration name="MagicIndex.trueTest" configurationId="JUnit" />
+    <history-entry file="MagicIndex - 2017.07.18 at 19h 01m 27s.xml">
+      <configuration name="MagicIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MagicIndex - 2017.07.18 at 19h 02m 46s.xml">
+      <configuration name="MagicIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MagicIndex - 2017.07.18 at 21h 47m 24s.xml">
+      <configuration name="MagicIndex" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MagicIndex_trueTest - 2017.07.16 at 14h 22m 17s.xml">
       <configuration name="MagicIndex.trueTest" configurationId="JUnit" />
@@ -637,7 +644,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RecurssionAndDynamicProgramming/MagicIndex.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -788,13 +803,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RecurssionAndDynamicProgramming/MagicIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="84" column="42" lean-forward="false" selection-start-line="84" selection-start-column="42" selection-end-line="84" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/PalindromePermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
